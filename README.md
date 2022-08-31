@@ -1,3 +1,8 @@
+### This is one of my first apps made with React. Very simple and easy to use. Not much functionality. 
+### In the future i plan to extend this app with more features.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+###  `npm install`
+
+Installs node modules that are critical to run the project
 
 ### `npm start`
 
