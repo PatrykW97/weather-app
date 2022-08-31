@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    background:linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family:'poppins', sans-serif;
+    color:white;
+}
+
+.main{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.wyszukaj{
+  width:100%;
+  margin: 0 0 75px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.wyszukaj .pasek-szukaj{
+  display: block;
+  width:50%;
+  padding: 15px;
+  border: none;
+  border-radius: 0 0 15px 15px;
+  background-color: rgba(255, 255, 255, 0.425);
+  color:white;
+  font-size: 20px;
+  appearance: none;
+  outline: none;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.233);
+}
+
+.weather
+{
+  width:80%;
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.weather div{
+  width:50%;
+  height:100px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .weather div{
+        font-size: 20px;
+        height: 10vh;
+        width:70%;
+    }
+}
+@media only screen and (max-height: 590px) {
+    .weather div{
+        height: 10vh;
+    }
+    .wyszukaj{
+        margin-bottom: 10px;
+    }
+}
+ 
+ 
