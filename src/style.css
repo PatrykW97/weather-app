@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.wyszukaj{
+.search{
   width:100%;
   margin: 0 0 75px;
   display:flex;
@@ -26,7 +26,7 @@ body{
   align-items: center;
   
 }
-.wyszukaj .pasek-szukaj{
+.search .searhc-bar{
   display: block;
   width:50%;
   padding: 15px;
@@ -72,7 +72,7 @@ body{
     .weather div{
         height: 10vh;
     }
-    .wyszukaj{
+    .search{
         margin-bottom: 10px;
     }
 }
